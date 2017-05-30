@@ -1,0 +1,32 @@
+[
+	{
+		"id":1,
+		"name":"admin",
+	    "lgID":"admin",
+	    "lgPwd":"12345670",
+	    "post":1,
+	    "powers":"",
+	    "lastLogin":0,
+	    "status":0
+	},
+	{
+		"id":2,
+		"name":"guest",
+	    "lgID":"guest",
+	    "lgPwd":"guest123",
+	    "post":2,
+	    "powers":"",
+	    "lastLogin":0,
+	    "status":0
+	},
+	{
+		"id":3,
+		"name":"九越",
+	    "lgID":"jiuyue",
+	    "lgPwd":"jiuyue123",
+	    "post":2,
+	    "powers":"",
+	    "lastLogin":0,
+	    "status":0
+	}
+]

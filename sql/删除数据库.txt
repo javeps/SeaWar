@@ -1,0 +1,7 @@
+DROP DATABASE `seawar`;
+DROP DATABASE `seawar_design`;
+DROP DATABASE `seawar_log`;
+
+DROP DATABASE `seawar2`;
+DROP DATABASE `seawar2_design`;
+DROP DATABASE `seawar2_log`;

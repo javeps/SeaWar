@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyncAppOrderReq xmlns="http://www.monternet.com/dsmp/schemas/">
+<TransactionID>CSSP16155825</TransactionID>
+<MsgType>SyncAppOrderReq</MsgType>
+<Version>1.0.0</Version>
+<Send_Address>
+<DeviceType>200</DeviceType>
+<DeviceID>CSSP</DeviceID>
+</Send_Address>
+<Dest_Address>
+<DeviceType>1002</DeviceType>
+<DeviceID>f0_0</DeviceID>
+</Dest_Address>
+<OrderID>11140626164045458007</OrderID>
+<CheckID>0</CheckID>
+<ActionTime>20140626164045</ActionTime>
+<ActionID>1</ActionID>
+<MSISDN></MSISDN>
+<FeeMSISDN>BB623C70B446961F</FeeMSISDN>
+<AppID>300008333504</AppID>
+<PayCode>30000833350401</PayCode>
+<TradeID>266E286339AFDE51D6B7392D9BB5DE33</TradeID>
+<Price>10</Price>
+<TotalPrice>10</TotalPrice>
+<SubsNumb>1</SubsNumb>
+<SubsSeq>1</SubsSeq>
+<ChannelID>0000000000</ChannelID>
+<ExData>swar1128544</ExData>
+<OrderType>0</OrderType>
+<MD5Sign>AB925ED2ACAE2713ADB74E6EAE555253</MD5Sign>
+<OrderPayment>1</OrderPayment>
+</SyncAppOrderReq>

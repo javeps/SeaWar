@@ -1,0 +1,15 @@
+{
+    "maxPointHP":50,
+    "maxPointAtt":50,
+    "eachRateHP":1,
+    "eachRateAtt":1,
+    "nextResCell_Oil":1000,
+    "nextResDiff_Oil":45,
+    "nextResFirst_Oil":20,
+    "nextResBase_Oil":30,
+    "nextResCell_Gold":1200,
+    "nextResDiff_Gold":50,
+    "nextResFirst_Gold":20,
+    "nextResBase_Gold":30,
+    "donateMaxNum":3
+}

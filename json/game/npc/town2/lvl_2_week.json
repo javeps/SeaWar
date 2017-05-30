@@ -1,0 +1,8 @@
+{
+    "renown":"{"min":100,"max":300}",
+    "exp":"{"min":50,"max":900}",
+    "gold":"{"min":500,"max":2000}",
+    "oil":"{"min":500,"max":2000}",
+    "maxGold":7000,
+    "maxOild":7000
+}

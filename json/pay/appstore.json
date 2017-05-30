@@ -1,0 +1,32 @@
+[
+	{
+	    "money":30,
+	    "unique":"com.coolape.islandwar.ag1",
+	    "gem":500
+	},
+	{
+	    "money":68,
+	    "unique":"com.coolape.islandwar.ag2",
+	    "gem":1200
+	},
+	{
+	    "money":128,
+	    "unique":"com.coolape.islandwar.ag3",
+	    "gem":2500
+	},
+	{
+	    "money":328,
+	    "unique":"com.coolape.islandwar.ag4",
+	    "gem":6500
+	},
+	{
+	    "money":648,
+	    "unique":"com.coolape.islandwar.ag5",
+	    "gem":14000
+	},
+	{
+	    "money":20,
+	    "unique":"9",
+	    "gem":200
+	}
+]

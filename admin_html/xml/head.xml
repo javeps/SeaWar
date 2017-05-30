@@ -1,0 +1,13 @@
+﻿<div id="head">
+	<div class="head_top"></div>
+	<div class="head_mid">
+		<span><img class="span_img" src="pic/logo.jpg" width="262px" height="64px"></span>
+		<span class="span_002">
+			<a href="javascript:void(0)" target="_self" onClick="logout();"><img src="images/out.gif" alt="安全退出" width="46" height="20"></a>
+		</span>
+		<span class="span_001 head_txt">
+			管理员：<b>[<span id="head_admin_name">xxx</span>]</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您好,感谢登陆使用！
+		</span>
+	</div>
+	<div class="head_bot clear"></div>
+</div> 

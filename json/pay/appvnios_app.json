@@ -1,0 +1,20 @@
+[
+	{
+	    "money":6,
+	    "moneyS":0.99,
+	    "unique":"com.publish.apt.cuopbien.item1",
+	    "gem":75
+	},
+	{
+	    "money":30,
+	    "moneyS":4.99,
+	    "unique":"com.publish.apt.cuopbien.item2",
+	    "gem":500
+	},
+	{
+	    "money":61,
+	    "moneyS":9.99,
+	    "unique":"com.publish.apt.cuopbien.item3",
+	    "gem":1200
+	}
+]

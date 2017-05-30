@@ -1,0 +1,31 @@
+@charset "UTF_8";
+/****引用***/
+@import url(left.css);
+@import url(right.css);
+
+#mid{
+	background:rgba(238,242,251,1);
+	min-width:960px;
+	max-width:1300px;
+	margin:0 auto;
+}
+#mid_lt{
+	min-width:185px;
+	max-width:20%;
+	display:inline-block;
+	vertical-align:top;
+}
+#mid_lt_l_rt{
+	width:1px;
+	display:inline-block;
+	vertical-align:top;
+}
+#mid_rt{
+	/*
+	min-width:750px;
+	max-width:75%;
+	*/
+	width:78%;
+	display:inline-block;
+	vertical-align:top;
+}

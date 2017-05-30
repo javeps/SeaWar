@@ -1,0 +1,5 @@
+ALTER TABLE  `attack_mail` ADD  `builds` TEXT NOT NULL COMMENT  '防御方建筑';
+ALTER TABLE  `attack_mail` ADD  `obsts` TEXT NOT NULL COMMENT  '防御方障碍';
+ALTER TABLE  `attack_mail` ADD  `amrys` TEXT NOT NULL COMMENT  '防御方军队';
+ALTER TABLE  `attack_mail` ADD  `teches` TEXT NOT NULL COMMENT  '防御方科技';
+ALTER TABLE  `attack_mail` ADD  `heros` TEXT NOT NULL COMMENT  '防御方英雄';

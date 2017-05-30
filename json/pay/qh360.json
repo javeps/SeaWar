@@ -1,0 +1,37 @@
+[
+	{
+	    "money":6,
+	    "unique":"6",
+	    "gem":100
+	},
+	{
+	    "money":30,
+	    "unique":"1",
+	    "gem":500
+	},
+	{
+	    "money":68,
+	    "unique":"2",
+	    "gem":1200
+	},
+	{
+	    "money":128,
+	    "unique":"3",
+	    "gem":2500
+	},
+	{
+	    "money":328,
+	    "unique":"4",
+	    "gem":6500
+	},
+	{
+	    "money":648,
+	    "unique":"5",
+	    "gem":14000
+	},
+	{
+	    "money":20,
+	    "unique":"9",
+	    "gem":200
+	}
+]

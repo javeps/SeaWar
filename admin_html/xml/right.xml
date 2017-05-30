@@ -1,0 +1,25 @@
+﻿<div id="right">
+	<div class="rt_top">
+		<div class="rt_top_lt"></div>
+		<div class="rt_top_md"></div>
+		<div class="rt_top_rt"></div>
+	</div>
+	<div class="rt_mid">
+		<div class="rt_mid_lt"></div>
+		<div class="rt_mid_md">
+			<div id="cont_welcome">欢迎使用酷猿科技后台管理系统</div>
+			<div id="cont_main">
+				<ul id="cont_m_ul">
+				</ul>
+			</div>
+			<div class="clear_margin"></div>
+		</div>
+		<div class="rt_mid_rt"></div>
+	</div>
+	<div class="rt_bot">
+		<div class="rt_bot_lt"></div>
+		<div class="rt_bot_md"></div>
+		<div class="rt_bot_rt"></div>
+	</div>
+	<div class="clear_margin"></div>
+</div> 

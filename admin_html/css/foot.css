@@ -1,0 +1,14 @@
+@charset "UTF_8";
+.middel_margin_foot{
+	background: url(../images/login-buttom-bg.gif) center repeat-x;
+	height:20px;
+	width:100%;
+}
+#foot{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: rgba(135,135,135,1);
+	text-decoration: none;
+	line-height: 20px;
+}
+.foot_bottom{height:60px;text-align:center;margin:10px 0 0 0;}

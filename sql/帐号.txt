@@ -1,0 +1,30 @@
+112.124.56.63
+root
+Godlike123
+
+mysql位置在/etc下面
+
+115.28.214.6
+root
+coolape99
+
+203.130.48.28
+root
+Godlike123
+
+// ===== 移动MM 九越
+118.144.78.173
+默认密码:jilwhnbtgm
+新密码:jiuyue@coolape
+
+越南
+210.211.121.5
+Gateway:210.211.121.30
+User: root
+Password: fa$caribe3399
+
+日本
+103.242.64.164
+User: root
+Password: kedorjycma
+New_Password: Godlike123

@@ -1,0 +1,7 @@
+ALTER TABLE `表名` DROP `字段名字`;
+
+ALTER TABLE  `表名` ADD  `字段名字` INT NOT NULL AFTER  `字段名字`;
+
+UPDATE `player` AS SWA SET SWA.protectTime = CASE WHEN SWA.protectTime <=  ( Select UNIX_TIMESTAMP( NOW( )) as now_Time) THEN 0 ELSE SWA.protectTime END,SWA.isOnline = CASE WHEN SWA.isOnline = TRUE THEN FALSE ELSE SWA.isOnline END WHERE SWA.type != 1;
+
+ALTER TABLE `seawar2`.`payment` ADD UNIQUE `唯一` (`unid`);

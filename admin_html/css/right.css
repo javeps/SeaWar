@@ -1,0 +1,175 @@
+@charset "UTF_8";
+
+#right{}
+
+/*** top **/
+.rt_top{
+	height:30px;
+}
+
+.rt_top .rt_top_lt{
+	width:17px;
+	height:29px;
+	background:url(../images/left-top-right.gif) 0 0 no-repeat;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.rt_top .rt_top_md{
+	/*
+	min-width:720px;
+	max-width:96%;
+	*/
+	width:97%;
+	height:31px;
+	background:url(../images/content-bg.gif) 0 0 repeat-x;
+	display:inline-block;
+	margin-left:-14px;
+	vertical-align: top;
+}
+
+.rt_top_md .tittxt{
+	line-height:29px;
+	height:30px;
+	font-size:14px;
+	width:200px;
+	color:rgba(133,23,234,255);
+	font-weight:bold;
+	padding-left:35px;
+}
+
+.rt_top .rt_top_rt{
+	width:16px;
+	height:29px;
+	background:url(../images/nav-right-bg.gif) 0 0 no-repeat;
+	display:inline-block;
+	vertical-align: top;
+	margin-left:-14px;
+}
+
+/*** bot **/
+.rt_bot{height:17px;margin-top:-5px;}
+.rt_bot .rt_bot_lt{
+	width:17px;
+	height:17px;
+	background:url(../images/buttom_left2.gif) 0 0 no-repeat;
+	display:inline-block;
+	vertical-align: bottom;
+}
+
+.rt_bot .rt_bot_md{
+	/*
+	min-width:720px;
+	max-width:96%;
+	*/
+	width:97%;
+	height:17px;
+	background:url(../images/buttom_bgs.gif) 0 0 repeat-x;
+	display:inline-block;
+	margin-left:-14px;
+	vertical-align: bottom;
+}
+
+.rt_bot .rt_bot_rt{
+	width:16px;
+	height:17px;
+	background:url(../images/buttom_right2.gif) 0 0 no-repeat;
+	display:inline-block;
+	vertical-align: bottom;
+	margin-left:-14px;
+}
+
+/*** mid **/
+.rt_mid{min-height:600px;margin-top:-1px;}
+.rt_mid .rt_mid_lt{
+	min-height:600px;
+	width:17px;
+	display:inline-block;
+	background:url(../images/mail_leftbg.gif) 0 0 repeat-y;
+	vertical-align: middle;
+}
+.rt_mid  .rt_mid_md{
+	/*
+	min-width:720px;
+	max-width:96%;
+	*/
+	min-height:600px;
+	width:97%;
+	display:inline-block;
+	margin-left:-14px;
+	vertical-align: top;
+}
+#cont_welcome{
+	text-align:center;
+	color:rgba(133,23,234,255);
+	font-size:24px;
+	font-weight:bold;
+	line-height:600px;
+}
+.rt_mid .rt_mid_rt{
+	min-height:600px;
+	width:17px;
+	display:inline-block;
+	background:url(../images/mail_rightbg.gif) 0 0 repeat-y;
+	vertical-align: middle;
+	margin-left:-14px;
+}
+
+#cont_main{
+	text-align:center;
+	padding-top:35px;
+}
+
+#cont_main .head_title{
+	color:rgba(234,29,29,255);
+	font-size:26px;
+	margin:5px;
+	font-weight:bold;
+}
+#cont_main .ul_li_head {
+	display:inline-block;
+	height:35px;
+	line-height:35px;
+	font-size:16px;
+	font-weight:bold;
+	border:1px solid black;
+	margin:1px 2px 0px 2px;
+}
+
+#cont_main .w_01{
+	width:160px;
+}
+
+#cont_main .w_02{
+	width:80px;
+}
+
+#cont_main  .w_03{
+	width:400px;
+}
+
+#cont_main .ul_li_cont{
+	display:inline-block;
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	border:1px solid black;
+	margin:1px 2px 0px 2px;
+	vertical-align:top;
+}
+
+#cont_main .ul_li_cont .ul_month{
+	line-height:16px;
+	height:16px;
+	border : 0px;
+	margin : 2px 0px;
+}
+#cont_main .ul_li_cont  .month{
+	display:inline-block;
+	height:14px;
+	line-height:14px;
+	font-size:10px;
+	width:70px;
+	border:1px solid black;
+	margin: 0px 2px;
+}

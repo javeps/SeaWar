@@ -1,0 +1,138 @@
+http://112.124.56.63:10000/sves?chl=demo
+
+http://112.124.56.63:10000/version?chl=demo
+
+//取得公告
+http://112.124.56.63:10000/notice?chl=demo
+http://192.168.1.111:10000/notice?chl=demo
+
+登录25pp
+http://112.124.56.63:10000/login25PP?chl=25pp&sid=
+
+// 邮件
+http://112.124.56.63:10000/mail?svcid=1000&type=4&sub=0&title=测试问题&cont=这是一封测试邮件&names=邵鸿和
+http://112.124.56.63:10000/mail?svcid=1000&type=1&sub=0&title=获取能源片概率提高活动&cont=2014-12-24 10:00:00到2014-12-25 23:00:00活动期间获取能源片概率提高!&names=
+
+http://112.124.56.63:10000/chat?ctype=1&svcid=1000&sub=0&cont=[ff1919]系统维护，维护时间2015-07-20 10:10停服维护，维护时间预计30分钟。请临近时间时，不要攻打其他玩家或者NPC，做好下线准备。[-]
+http://112.124.56.63:10000/chat?ctype=1&svcid=3000&sub=0&cont=[ff1919]系统维护，维护时间2014-12-19 14:40停服维护，维护时间预计5分钟。请临近时间时，不要攻打其他玩家或者NPC，做好下线准备。[-]
+http://112.124.56.63:10000/chat?ctype=1&svcid=2000&sub=0&cont=[ff1919]System maintenance，that well be begin 2014-12-19 14:35(beijing time) and well be costing 15 Minutes。Please don't attack other and be downline When the maintenance is coming[-]
+http://210.211.121.5:10000/chat?ctype=1&svcid=4000&sub=0&cont=[ff1919]Các đô đốc thân mến! Vào lúc 20:00 ngày 15/12/2014 sẽ diễn ra việc bảo trì hệ thống. Dự kiến việc bảo trì diễn ra trong khoảng 10 phút. Trân trọng![-]
+
+http://112.124.56.63:10000/chat?ctype=1&svcid=1000&sub=0&cont=[ff1919]紧急维护，维护时间2014-06-20 12:40停服维护，维护时间预计15分钟。请临近时间时，不要攻打其他玩家或者NPC，做好下线准备。[-]
+
+http://112.124.56.63:10000/chat?ctype=1&svcid=1000&sub=0&cont=[ff1919]Emergency maintenance, maintenance time 2014-06-20 12:40 stop taking maintenance, maintenance time is expected to 15 minutes. Please close time, not to attack other players or NPC, do offline preparation.[-]
+
+http://112.124.56.63:10000/chat?ctype=1&svcid=1000&sub=0&cont=[ff1919]欢迎大家加入海岛大作战游戏官方QQ群:331731291。有什么问题请与GM联系。[-]
+
+http://112.124.56.63:10000/chat?ctype=1&svcid=1000&sub=0&cont=[ff1919]欢迎大家加入海岛大作战游戏官方QQ群:331731291。有什么问题请与GM联系。欢迎大家踊跃提交游戏问题，会有奖励的哟。近期将开放联盟，敬请期待！[-]
+
+//转变long time 为yyyy-MM-dd HH:mm:ss
+http://112.124.56.63:10000/timeToStr?time=1404263742263
+http://192.168.1.111:10000/timeToStr?time=1402822313158
+
+//发送资源
+http://112.124.56.63:10000/addres?sign=sw&type=1&svcid=1000&resType=c&resVal=50000&strList=喻周
+http://112.124.56.63:10000/addres?sign=sw&type=2&svcid=1000&resType=c&resVal=-2544848&strList=51373
+http://210.211.121.5:10000/addres?sign=sw&type=2&svcid=4000&resType=c&resVal=50000&strList=5417
+http://192.168.1.111:10000/addres?sign=sw&type=2&svcid=1000&resType=c&resVal=5000&strList=-939905824
+http://192.168.1.111:10000/addres?sign=sw&type=1&svcid=1000&resType=c&resVal=5000&strList=烧杀抢掠
+
+//查看用户
+http://112.124.56.63:10000/searchPname?svcid=1000&name=隔岸观猩猩
+http://210.211.121.5:10000/searchPname?svcid=4000&name=Ng?o??
+http://112.124.56.63:10000/searchPcid?svcid=1000&pcid=54590
+http://210.211.121.5:10000/searchPcid?svcid=4000&pcid=5121
+http://192.168.1.111:10000/searchPname?svcid=1000&name=尖阁列岛
+http://192.168.1.111:10000/searchPcid?svcid=1000&pcid=24559
+http://192.168.1.111:10000/searchLogin?svcid=1000&lgid=mumayi_5652117&lgpwd=
+http://112.124.56.63:10000/searchLogin?svcid=1000&lgid=nd91and_694355562&lgpwd=
+
+//查看用户列表(模糊查询)
+http://210.211.121.5:10000/searchListPnames?svcid=4000&name=Ng
+http://112.124.56.63:10000/searchListPnames?svcid=1000&name=隔岸观猩猩
+http://192.168.1.111:10000/searchListPnames?svcid=1000&name=尖阁列岛
+
+http://112.124.56.63:10000/
+
+//改变用户的UCID
+http://192.168.1.111:10000/changeUcid?svcid=1000&lgid=mumayi_5652117&lgpwd=&isDel=true&ucid=25
+http://112.124.56.63:10000/changeUcid?svcid=1000&lgid=nd91and_694355562&lgpwd=&isDel=true&ucid=37289689
+http://112.124.56.63:10000/changeUcid?svcid=1000&lgid=新帐号&lgpwd=新帐密码&isDel=true&ucid=老帐号角色player对象上面的ucid
+http://210.211.121.5:10000/changeUcid?svcid=4000&lgid=famv_14fd1cd151522b06f54bacaf3c3b32af&lgpwd=&isDel=true&ucid=3462
+
+//删除用户
+http://192.168.1.111:10000/delByUcid?svcid=1000&ucid=5372
+http://192.168.1.111:10000/delByPcid?svcid=1000&isDelUser=false&pcid=5416
+http://112.124.56.63:10000/delByUcid?svcid=1000&ucid=40703
+http://112.124.56.63:10000/delByPcid?svcid=1000&isDelUser=false&pcid=5416
+http://210.211.121.5:10000/delByUcid?svcid=4000&ucid=5367
+http://210.211.121.5:10000/delByPcid?svcid=4000&isDelUser=false&pcid=2938
+
+//封号
+http://112.124.56.63:10000/statusPcid?svcid=1000&status=11&pcid=1487
+http://192.168.1.111:10000/statusPname?svcid=1000&name=隔岸观猩猩&status=11
+
+//改变用户类型(0正常用户,1NPC用户,2GM)
+http://112.124.56.63:10000/typePcid?svcid=1000&type=2&pcid=1487
+http://192.168.1.111:10000/typePname?svcid=1000&type=2&name=隔岸观猩猩
+
+//修改玩家声望
+http://112.124.56.63:10000/renownPcid?svcid=1000&renown=100&pcid=1487
+http://192.168.1.111:10000/renownPname?svcid=1000&name=隔岸观猩猩&renown=100
+
+//修改玩家科技gid与舰船gid一致[1008,1016,1009-1014]
+http://112.124.56.63:10000/techPcid?svcid=1000&tgid=100&lvl=4&pcid=1487
+http://192.168.1.111:10000/techPname?svcid=1000&tgid=100&lvl=4&name=隔岸观猩猩
+
+//修改玩家英雄gid[1020-1024]
+http://112.124.56.63:10000/heroPcid?svcid=1000&hgid=100&speed=4&damage=4&hp=4&pcid=1487
+http://192.168.1.111:10000/heroPname?svcid=1000&hgid=100&speed=4&damage=4&hp=4&name=隔岸观猩猩
+
+//全服发资源
+http://192.168.1.111:10000/sendAllReward?svcid=1000&resType=c&val=100000
+http://112.124.56.63:10000/sendAllReward?svcid=1000&resType=c&val=200
+
+//查看在线人数
+http://192.168.1.111:10000/onlineNum?svcid=1000
+http://112.124.56.63:10000/onlineNum?svcid=1000
+http://210.211.121.5:10000/onlineNum?svcid=4000
+
+//处理充值
+http://192.168.1.111:10000/handPayByPcid?svcid=1000&pcid=12&money=6&isMonth=false&gems=100
+http://112.124.56.63:10000/handPayByPcid?svcid=1000&pcid=824&money=100&isMonth=false&gems=2000
+http://210.211.121.5:10000/handPayByPcid?svcid=4000&pcid=1034&money=3&isMonth=false&gems=30
+
+//增加玩家能源
+http://112.124.56.63:10000/energyPcid?svcid=1000&addSpeed=984&addDam=984&addHP=984&pcid=54590
+http://192.168.1.111:10000/energyPcid?svcid=1000&addSpeed=100&addDam=100&addHP=100&pcid=61760
+
+//重新加载用户基本信息
+http://112.124.56.63:10000/reloadPInfoPcid?svcid=1000&pcid=54590
+http://192.168.1.111:10000/reloadPInfoPcid?svcid=1000&pcid=61760
+
+//开关四个活动，快速完成建造1gem,快速完成造兵1gem，购买英雄70%，购买资源70%
+http://112.124.56.63:10000/setOpenEvent?svcid=1000&isOpen=false&testPcid=1245&edtimeStr=2014-11-11 12:00:00
+http://192.168.1.111:10000/setOpenEvent?svcid=1000&isOpen=false&testPcid=1245&edtimeStr=2014-11-11 12:00:00
+http://210.211.121.5:10000/setOpenEvent?svcid=4000&isOpen=true&testPcid=0&edtimeStr=2014-12-07 23:00:00
+
+// 重新加载活动[activities.json]
+http://112.124.56.63:10000/reloadActive?svcid=1000
+
+// 重新主城限定[townHall.json]
+http://112.124.56.63:10000/reloadTHall?svcid=1000
+
+// 重新计算英雄属性最大值
+http://112.124.56.63:10000/resetHeroAttr?svcid=1000&pcid=1487&name=隔岸观猩猩
+http://192.168.1.235:10000/resetHeroAttr?svcid=1000&pcid=1487&name=隔岸观猩猩
+
+// 修复玩家联盟盟主
+http://112.124.56.63:10000/resetClanAdmin?svcid=1000&ccid=ccid171&pcid=48575&name=
+http://192.168.1.235:10000/resetClanAdmin?svcid=1000&ccid=ccid171&pcid=48575&name=
+
+// 修复玩家player -- 对应的 -- user[要修复的pcid,ucid之间的关系,可以修改渠道标识chn,isDelUser是否删除player上面绑定的user]
+http://112.124.56.63:10000/rebackPcid2Ucid?svcid=1000&ucid=12&pcid=48575&chn=nd91and&isDelUser=false
+http://192.168.1.235:10000/rebackPcid2Ucid?svcid=1000&ucid=12&pcid=48575&chn=nd91and&isDelUser=false
+
+// 重新发奖
+http://112.124.56.63:10000/reward?svcid=1000&isNewReward=true
+http://192.168.1.235:10000/reward?svcid=1000&isNewReward=true

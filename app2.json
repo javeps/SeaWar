@@ -1,0 +1,80 @@
+{
+	"local":"192.168.1.121",
+	"engli":"203.130.48.28",
+	"neidi":"112.124.56.63",
+	"9yemm":"118.144.78.173",
+	"yuenan":"210.211.121.5",
+	"riben":"103.242.64.164",
+	"APP":{
+	    "NAME"        :"SeaWar.Game",
+	    "VER"         :1.05,
+	    "WEB_PORT"    :20001,
+	    "TCP_PORT"    :20002,
+	    "SHUTDOWNPORT":9990,
+	    "GATE_SERVER" :"",
+	    "GATE_PORT_WEB":10000,
+	    "GATE_PORT_TCP":10001,
+	    "SHUTDOWNPORT_GATE":9991,
+	    "GAME_WEB_HOSTS":[
+	    	{"1000":"http://112.124.56.63:20001/"},
+	    	{"1001":"http://112.124.56.63:20001/"},
+	    	{"2000":"http://203.130.48.28:20001/"},
+	    	{"3000":"http://118.144.78.173:20001/"},
+	    	{"4000":"http://210.211.121.5:20001/"},
+	    	{"5000":"http://103.242.64.164:20001/"}
+	    ]
+	},
+	"REDIS":{
+		"maxActiveUnlimite":-1,
+		"maxIdleUnlimite":-1,
+		"testOnBorrow":true,
+		"testOnReturn":true,
+		"testWhileIdle":true,
+		"timeBetweenEvictionRunsMillis":60000,
+		"minEvictableIdleTimeMillis":30000,
+		"numTestsPerEvictionRun":3000,
+		"maxActive":3000,
+		"maxIdle":2000,
+		"minIdle":10,
+		"maxWait":15000,
+		"timeOut":10000,
+		"host":"127.0.0.1",
+		"port":5268,
+		"defPort":6379
+	},
+	"DATASOURCE":{
+		"design":{
+			"driverClassName":"com.mysql.jdbc.Driver", 
+			"url":"jdbc:mysql://127.0.0.1:3306/seawar2_design?autoReconnect=true&useUnicode=true&characterEncoding=utf-8",
+			"username":"root",
+			"password":"12345670",
+			"maxActive":64,
+			"maxIdle":4,
+			"maxWait":60000,
+			"removeAbandoned":true,
+			"removeAbandonedTimeout":10
+		},
+		"ds":{
+			"driverClassName":"com.mysql.jdbc.Driver", 
+			"url":"jdbc:mysql://127.0.0.1:3306/seawar2?autoReconnect=true&useUnicode=true&characterEncoding=utf-8",
+			"username":"root",
+			"password":"12345670",
+			"maxActive":64,
+			"maxIdle":4,
+			"maxWait":60000,
+			"removeAbandoned":true,
+			"removeAbandonedTimeout":10
+		},
+		"log":{
+			"driverClassName":"com.mysql.jdbc.Driver", 
+			"url":"jdbc:mysql://127.0.0.1:3306/seawar2_log?autoReconnect=true&useUnicode=true&characterEncoding=utf-8",
+			"username":"root",
+			"password":"12345670",
+			"maxActive":64,
+			"maxIdle":4,
+			"maxWait":60000,
+			"removeAbandoned":true,
+			"removeAbandonedTimeout":10
+		}
+	}
+}

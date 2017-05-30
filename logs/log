@@ -1,0 +1,28 @@
+2015-03-16 21:07:18  com.sea.begin.SWBootstrapGate.main(SWBootstrapGate.java:99) - 
+/////////////////////////////////////////
+// Applicatin   :SeaWar.Game v: 1.05
+// GATE_PORT_WEB:10000
+// GATE_PORT_TCP:10001
+// Shutdown  on :9991
+// used Memory  :3MB
+// free Memory  :236MB
+// totalMemory  :245MB
+// Start Time   :2015-03-16 21:07:14
+// startup      :4 秒(s)
+// start time2  :2015-03-16 21:07:18
+/////////////////////////////////////////
+
+2015-03-16 21:07:35  com.sea.begin.SWBootstrap.main(SWBootstrap.java:109) - 
+/////////////////////////////////////////
+// Applicatin   :SeaWar.Game v: 1.05
+// WEB_PORT on :20001
+// TCP_PORT on :20002
+// Shutdown  on :9990
+// used Memory  :-59MB
+// free Memory  :297MB
+// totalMemory  :421MB
+// Start Time   :2015-03-16 21:07:25
+// startup      :10 秒(s)
+// start time2  :2015-03-16 21:07:35
+/////////////////////////////////////////
+

@@ -1,0 +1,68 @@
+﻿<div id="login_middle" class="login_middle_border">
+  <div class="lg_mid_lt">
+	<div class="lg_mid_lt_lt">
+		<div class="lg_mid_lt_001"></div>
+		<div class="lg_mid_lt_002">
+			<img src="pic/yuan.png" width="65px" height="65px" style="vertical-align: top;">
+			<img src="pic/logo.png" width="267px" height="76px">
+		</div>
+		<div class="lg_mid_lt_003">
+			<ul class="left_txt">
+				<li><span class="lg_lt_li"></span></li>
+				<li><span class="fnt_lg_18">成都酷猿科技</span></li>
+				<li><span class="lg_lt_li"></span></li>
+				<li><span class="fnt_lg_18">后台管理系统</span></li>
+			</ul>
+		</div>
+		<div class="lg_mid_lt_004">
+			<ul>
+				<li class="li_lt">
+					
+				</li>
+				<li class="li_rt">
+					
+				</li>
+			</ul>
+		</div>
+		<div class="lg_mid_lt_005 clear"></div>
+	</div>
+	<div class="lg_mid_lt_rt"></div>	
+	<div class="clear"></div>
+  </div>
+  <div class="lg_mid_mid "></div>
+  <div class="lg_mid_rt ">
+	<div class="lg_mid_rt_top"></div>
+	<div class="lg_mid_rt_mid">
+		<form name="login_form"  id= "login_form" action="" method="post" onsubmit="return onsubmit_login()">
+		<ul>
+			<li>
+				<span class="fnt_lg_14">登陆酷猿科技后台管理</span>
+			</li>
+			<li>
+				<span class="fnt_lg_12 span_01">管理员：</span>
+				<span><input name="login_id" id="login_id" class="editbox4" value="" size="20" /></span>
+			</li>
+			<li>
+				<span class="fnt_lg_12 span_01">密&nbsp;&nbsp;&nbsp;&nbsp;码：</span>
+				<span><input class="editbox4" type="password" size="20" name="login_pwd" id="login_pwd" /></span>
+				<span><img src="images/luck.gif" width="19" height="18"/></span>
+			</li>
+			<!-- 
+			<li>
+				<span class="fnt_lg_12">验证码：</span>
+				<span><input class="wenbenkuang" name="verifycode" id="verifycode" type="text" value="" maxLength=4 size=10 /></span>
+			</li>
+			-->
+			<li>
+				<span class="span_submit"><input name="login_submit" type="submit" class="submit" id="login_submit" value="登 陆" /></span>
+				<span class="span_cancel"><input name="login_cancel" type="button" class="button" id="login_cancel" value="取 消" onClick="cancel_login()" /></span>
+			</li>
+		</ul>
+		</form>
+	</div>
+	<div class="lg_mid_rt_bot">
+		
+	</div>
+  </div>
+  <div class="clear"></div>
+</div> 
