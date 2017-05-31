@@ -1,3 +1,4 @@
 #xxx/redis-server  xxx/redis.conf
-# 鏀惧湪鍜宺edis-2.8.6鏂囦欢鍚岀骇 姝ゆ椂鐢熶骇鐨刣ump.db鏂囦欢涔熶細鏀惧湪杩欎釜鏂囦欢涓嬮潰
+# 放在和redis-2.8.6文件同级 此时生产的dump.db文件也会放在这个文件下面
 redis-2.8.6/src/redis-server  redis-2.8.6/redis.conf
+# /usr/games/redis/redis-2.8.6/src/redis-server  /usr/games/redis/redis-2.8.6/redis.conf
